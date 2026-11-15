@@ -17,7 +17,8 @@ The init target must not exist: existing work is never overwritten. Helpers do n
 ## Contents
 - docs/method.md: method, checkpoints and interview approach
 - config/stages.json: question bank
-- .agents/skills/: discoverable builder skills
+- .agents/skills/: discoverable builder skills (including launch-and-sync: owner review, handoff, launch and keeping the design in sync with the live agent)
+- scripts/sync_live.py: mirrors a launched agent's live description and skills into <project>/live/ with a drift report
 - templates/: integration and evaluation templates
 - examples/: fictional support-agent example
 - raw/ and wiki/: original Agent in a Folder sourced-wiki foundation
