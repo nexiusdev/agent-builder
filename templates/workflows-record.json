@@ -1,0 +1,15 @@
+{
+  "workflow_id": "",
+  "purpose": "",
+  "owner_agent_id": "",
+  "trigger": {
+    "type": "manual",
+    "enabled": false
+  },
+  "steps": [],
+  "prerequisites": [],
+  "success_criteria": [],
+  "failure_policy": "stop and escalate",
+  "max_retries": 0,
+  "time_budget_seconds": 0
+}

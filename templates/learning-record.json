@@ -1,0 +1,12 @@
+{
+  "proposal_id": "",
+  "source_run_id": "",
+  "observation": "",
+  "proposed_change": "",
+  "evidence": [],
+  "risk": "unassessed",
+  "test_cases": [],
+  "approval": "pending",
+  "rollback": "",
+  "status": "proposed"
+}

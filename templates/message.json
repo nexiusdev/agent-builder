@@ -1,0 +1,16 @@
+{
+  "message_id": "example-001",
+  "type": "assignment",
+  "sender_agent_id": "planner",
+  "recipient_agent_id": "researcher",
+  "workflow_id": "example-workflow",
+  "run_id": "example-run",
+  "scope": "synthetic demonstration only",
+  "plan_version": "1",
+  "idempotency_key": "example-operation-001",
+  "state": "queued",
+  "evidence_refs": [],
+  "expected_outcome": "Prepare a sourced draft; no external action",
+  "deadline": null,
+  "summary": "Fictional example"
+}

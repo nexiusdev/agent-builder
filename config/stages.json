@@ -1,0 +1,117 @@
+[
+  {
+    "id": "workspace",
+    "title": "Establish workspace",
+    "questions": [
+      "New agent or improvement?",
+      "Where will it live and run?",
+      "What existing work must be preserved?",
+      "Will this agent maintain its own to-do file or use an existing builtin kanban?",
+      "Which tracker is authoritative, and who owns updates and conflict resolution?"
+    ],
+    "output": "Workspace and retrieval check"
+  },
+  {
+    "id": "knowledge",
+    "title": "Build knowledge",
+    "questions": [
+      "What work and outcome should it handle?",
+      "Show one task and a good result.",
+      "Which sources, policies and examples should it learn?",
+      "Which source wins conflicts?"
+    ],
+    "output": "Sourced knowledge and gaps"
+  },
+  {
+    "id": "context",
+    "title": "Develop progressively",
+    "questions": [
+      "What did we misunderstand?",
+      "What should change in this example?"
+    ],
+    "output": "Decisions and refined brief"
+  },
+  {
+    "id": "deliverable-design",
+    "title": "Design deliverables",
+    "questions": [
+      "What useful output and downstream decision are required?",
+      "Who produces, consumes, verifies and accepts it?",
+      "What format, schema, evidence and quality criteria apply?",
+      "How are versions, access, corrections and handoff managed?"
+    ],
+    "output": "Deliverable contracts linked to agent roles and workflows"
+  },
+  {
+    "id": "communication-design",
+    "title": "Design individual agent communication and handoffs",
+    "questions": [
+      "How does this agent receive requests and respond to people or agents?",
+      "Which senders, channels and recipients are permitted?",
+      "What context must accompany incoming and outgoing handoffs?",
+      "Who knows, decides, executes and verifies?",
+      "Which routes and message types are necessary?",
+      "How are acceptance and completion acknowledged?",
+      "Which evidence and plan version must travel?",
+      "How should dissent, duplicates, late replies and cancellation be resolved?",
+      "What data and permissions must remain restricted?"
+    ],
+    "output": "Routing, handoff and exception contract"
+  },
+  {
+    "id": "flow",
+    "title": "Map workflow",
+    "questions": [
+      "What starts the task?",
+      "What decisions and exceptions occur?",
+      "When must it ask a person?"
+    ],
+    "output": "Flow with handoffs"
+  },
+  {
+    "id": "integrations",
+    "title": "Research capabilities",
+    "questions": [
+      "Which systems and organisations are in scope?",
+      "What must be read, created or updated?",
+      "Is a sandbox available?"
+    ],
+    "output": "Verified capability map"
+  },
+  {
+    "id": "skills",
+    "title": "Build discoverable skills",
+    "questions": [
+      "What would someone ask to invoke this?",
+      "What inputs are essential?",
+      "What should happen on failure?"
+    ],
+    "output": "Skills with metadata and tests"
+  },
+  {
+    "id": "validation",
+    "title": "Test complete workflows",
+    "questions": [
+      "Give an ordinary and difficult case.",
+      "What is a serious error?",
+      "What proves readiness?"
+    ],
+    "output": "Evidence and regression checks"
+  },
+  {
+    "id": "operation",
+    "title": "Operate within boundaries",
+    "questions": [
+      "Manual, scheduled or event-driven?",
+      "What actions need approval?",
+      "Who receives exceptions and maintains it?",
+      "Which role owns each workflow, and where does its responsibility end?",
+      "Which routine flows already exist?",
+      "What action, data, recipient and budget limits bound autonomy?",
+      "When is proactive preparation useful, and when may it act?",
+      "Who reviews learning proposals and approves changes?",
+      "What run evidence and rollback should be retained?"
+    ],
+    "output": "Operating plan; schedules remain inactive"
+  }
+]

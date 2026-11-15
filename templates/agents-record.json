@@ -1,0 +1,14 @@
+{
+  "agent_id": "",
+  "role": "",
+  "owner": "",
+  "purpose": "",
+  "inputs": [],
+  "outputs": [],
+  "tools": [],
+  "allowed_actions": [],
+  "approval_required": [],
+  "prohibited_actions": [],
+  "escalation_owner": "",
+  "status": "draft"
+}

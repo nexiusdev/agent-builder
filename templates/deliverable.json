@@ -1,0 +1,25 @@
+{
+  "deliverable_id": "example-report",
+  "version": "1",
+  "title": "Fictional enquiry response",
+  "owner_agent_id": "support",
+  "consumer_ids": [
+    "reviewer"
+  ],
+  "format": "text/markdown",
+  "schema_ref": null,
+  "evidence_refs": [
+    "fictional-policy-v1"
+  ],
+  "acceptance_criteria": [
+    "Answers enquiry with sourced policy",
+    "No unauthorized commitments"
+  ],
+  "acceptance_owner": "reviewer",
+  "state": "draft",
+  "access": "internal",
+  "handoff_workflow_id": "example-support",
+  "artifact_ref": null,
+  "review_record": null,
+  "delivery_record": null
+}
